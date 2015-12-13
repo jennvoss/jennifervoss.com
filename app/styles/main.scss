@@ -1,0 +1,78 @@
+$black: #000;
+$white: #fff;
+$purple: #433971;
+$dark-purple: #2f284f;
+$gray: #ccc;
+$light-gray: #fafafa;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $black;
+}
+
+a {
+  color: $purple;
+}
+
+header {
+  padding: 2em 1em;
+  border-top: 15px solid $dark-purple;
+  background-color: $purple;
+  color: $light-gray;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+  }
+}
+
+section {
+  padding: 1em;
+  color: $black;
+  max-width: 600px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 0 0 0.75em;
+  padding: 0;
+}
+
+footer {
+  margin: 1em;
+  padding: 0.5em 5px 1em;
+  font-size: 0.875em;
+  border-top: 1px solid $gray;
+  max-width: 600px;
+}
+
+footer a {
+  display: block;
+  font-size: 0;
+}
+
+.icon {
+  pointer-events: none;
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: $gray;
+}
+
+.linkedin {
+  margin-top: -3px;
+}
